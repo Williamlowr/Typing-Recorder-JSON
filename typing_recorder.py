@@ -33,15 +33,16 @@ def export():
 def record(event):
     # Record a keystroke with elapsed time
     global recording, startTime, keystrokes
-    # If recording,
-    if recording:
-        # Calculate elapsed time since start
-        elapsed = time.perf_counter() - startTime
-        # Append key and elapsed time to keystrokes
-        keystrokes.append({
-            "char": event.char,
-            "time": elapsed
-        })
+    # Only record when recording is active
+    if not recording:
+        return
+    
+    elapsed = time.perf_counter() - startTime
+    keystrokes.append({
+        # Record key ID
+        "keysym": event.keysym,
+        "time": elapsed
+    })
 
 # Function to set current paragraph and its ID
 def set_p(text, p_id):
