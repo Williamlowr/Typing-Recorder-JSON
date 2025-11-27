@@ -53,16 +53,16 @@ def set_p(text, p_id):
 root = Tk()
 root.title("Typing Recorder")
 
-p1 = "The quick brown fox jumps over the lazy dog."
-p2 = "Pack my box with five dozen liquor jugs."
-p3 = "How vexingly quick daft zebras jump!"
-p4 = "Bright vixens jump; dozy fowl quack."
-p5 = "Sphinx of black quartz, judge my vow."
-p6 = "Jackdaws love my big sphinx of quartz."
-p7 = "The five boxing wizards jump quickly."
-p8 = "Quick zephyrs blow, vexing daft Jim."
-p9 = "Two driven jocks help fax my big quiz."
-p10 = "Five quacking zephyrs jolt my wax bed."
+p1 = "calm river gentle breeze quiet morning slow footsteps soft sunlight peaceful thoughts drifting along",
+p2 = "bright meadow warm coffee quiet laughter soft music open windows simple comfort steady hands",
+p3 = "small moments matter more than big plans practice patience focus clearly breathe slowly keep moving",
+p4 = "Not all those who wander are lost.",
+p5 = "To be, or not to be, that is the question.",
+p6 = "The only thing we have to fear is fear itself.",
+p7 = "In the middle of difficulty lies opportunity.",
+p8 = "It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness.",
+p9 = "When you have eliminated the impossible, whatever remains, no matter how improbable, must be the truth.",
+p10 = "Four score and seven years ago our fathers brought forth on this continent, a new nation, conceived in Liberty, and dedicated to the proposition that all men are created equal.",
 
 # GUI Layout
 frm = ttk.Frame(root, padding=320)
