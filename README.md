@@ -6,7 +6,8 @@ Then you can use the JSON file as a ghost representation of the typing you recor
 Note, I don't know much tkinter and didn't put too much into making this pretty; pretty barebones functionality just as a fair warning. 
 
 
-Pseudocode plan
+** Pseudocode plan **
+
 Create main window: Typing Recorder
 
 Inside the window:
