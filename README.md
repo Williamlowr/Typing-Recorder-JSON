@@ -6,27 +6,27 @@ Then you can use the JSON file as a ghost representation of the typing you recor
 Note, I don't know much tkinter and didn't put too much into making this pretty; pretty barebones functionality just as a fair warning. 
 
 
-# Pseudocode plan
-# Create main window: Typing Recorder
+Pseudocode plan
+Create main window: Typing Recorder
 
-# Inside the window:
-#   - Add paragraph to type
-#   - Add text boxto type in
-#   - Add three buttons:
-#         [Start] → begins recording keystrokes
-#         [Stop] → ends recording
-#         [Export JSON] → saves the data to a file
+Inside the window:
+- Add paragraph to type
+- Add text boxto type in
+- Add three buttons:
+    [Start] → begins recording keystrokes
+    [Stop] → ends recording
+    [Export JSON] → saves the data to a file
 
-# When [Start] is clicked:
-#     - Clear previous typing data, start timer
-#     - Begin listening to key presses
+When [Start] is clicked:
+    - Clear previous typing data, start timer
+    - Begin listening to key presses
 
-# Every time a key is typed:
-#     - Save the character
-#     - Save how many seconds since beginning
+Every time a key is typed:
+    - Save the character
+    - Save how many seconds since beginning
 
-# When [Stop] is clicked:
-#     - Stop saving new key presses, stop timer
+When [Stop] is clicked:
+    - Stop saving new key presses, stop timer
 
-# When [Export JSON] is clicked:
-#     - Save the recorded list of characters and times as a JSON file
+When [Export JSON] is clicked:
+    - Save the recorded list of characters and times as a JSON file
