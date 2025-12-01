@@ -7,7 +7,6 @@ Note, I don't know much tkinter and didn't put too much into making this pretty;
 
 
 ** Pseudocode plan **
-
 Create main window: Typing Recorder
 
 Inside the window:
